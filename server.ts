@@ -13,10 +13,10 @@
 import 'reflect-metadata'
 import sourceMapSupport from 'source-map-support'
 import { Ignitor } from '@adonisjs/core/build/standalone'
-import dotenv from 'dotenv';
+import dotenv from 'dotenv'
 
-dotenv.config();
-console.log(process.env.PG_PORT);
+dotenv.config()
+console.log(process.env.PG_PORT)
 
 sourceMapSupport.install({ handleUncaughtExceptions: false })
 
